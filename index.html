@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кафе «Кавказ» у Ніжині — Головна</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Кафе «Кавказ»</a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="index.html" class="active" data-i18n="nav_home">Головна</a></li>
+                    <li><a href="about.html" data-i18n="nav_about">Про нас</a></li>
+                    <li><a href="services.html" data-i18n="nav_services">Меню та послуги</a></li>
+                    <li><a href="gallery.html" data-i18n="nav_gallery">Галерея</a></li>
+                    <li><a href="contacts.html" data-i18n="nav_contacts">Контакти</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uk">UA</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="menu-toggle" id="menuToggle" aria-label="Меню">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1 data-i18n="hero_title">Кафе «Кавказ» у Ніжині — затишна атмосфера та смачна кухня</h1>
+                <p data-i18n="hero_subtitle">Запрошуємо мешканців та гостей міста на незабутній відпочинок, святкові події та смачні частування.</p>
+                <div class="hero-buttons">
+                    <a href="contacts.html" class="btn btn-primary" data-i18n="btn_contact">Зв'язатися з нами</a>
+                    <a href="services.html" class="btn btn-secondary" data-i18n="btn_menu">Переглянути меню</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2 class="section-title" data-i18n="welcome_title">Ласкаво просимо до кафе «Кавказ»</h2>
+                        <p data-i18n="welcome_p1">Кафе «Кавказ» розташоване за адресою вул. Шевченка, 67А в місті Ніжин і є популярним закладом громадського харчування для мешканців та гостей міста. Тут панує приємна атмосфера, яка ідеально підходить як для повсякденних зустрічей з друзями, так і для проведення різноманітних урочистих подій, банкетів та сімейних свят.</p>
+                        <p data-i18n="welcome_p2">Заклад пропонує різноманітне меню з акцентом на ситні страви, традиційні частування та популярні позиції європейської та кавказської кухні.</p>
+                        <a href="about.html" class="btn btn-secondary" data-i18n="read_more">Дізнатися більше</a>
+                    </div>
+                    <div class="info-card">
+                        <h3 data-i18n="quick_info">Експрес-інфо</h3>
+                        <ul class="info-list">
+                            <li><strong data-i18n="lbl_address">Адреса:</strong> м. Ніжин, вул. Шевченка, 67А</li>
+                            <li><strong data-i18n="lbl_phone">Телефон:</strong> <a href="tel:+380681012124">+380 68 101 2124</a></li>
+                            <li><strong data-i18n="lbl_hours">Графік:</strong> <span data-i18n="hours_val">На замовлення / уточнюйте за телефоном</span></li>
+                        </ul>
+                        <div class="map-link-wrap" style="margin-top: 20px;">
+                            <a href="https://www.google.com/maps/search/?api=1&query=Кафе+Кавказ+Ніжин+вул+Шевченка+67А" target="_blank" rel="noopener" class="btn btn-primary" style="width: 100%; text-align: center;" data-i18n="open_map">Відкрити на Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section bg-light">
+            <div class="container">
+                <h2 class="section-title text-center" data-i18n="advantages_title">Чому обирають нас</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <h3 data-i18n="adv_1_title">Затишна атмосфера</h3>
+                        <p data-i18n="adv_1_desc">Ідеальні умови для комфортного відпочинку в будь-який день тижня з родиною чи друзями.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="adv_2_title">Смачна кухня</h3>
+                        <p data-i18n="adv_2_desc">Популярні позиції кавказської та європейської кухні, ситні страви та традиційні частування.</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="adv_3_title">Свята та банкети</h3>
+                        <p data-i18n="adv_3_desc">Проведення урочистих подій, індивідуальний підхід до кожного гостя та організації замовлень.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Кафе «Кавказ», Ніжин. <span data-i18n="all_rights">Всі права захищені.</span></p>
+            <p>м. Ніжин, вул. Шевченка, 67А | Тел: <a href="tel:+380681012124">+380681012124</a></p>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+</body>
+</html>
